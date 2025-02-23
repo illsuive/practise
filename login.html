@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        form {
+            width: 500px;
+            border: 2px solid black;
+            display: grid;
+            margin: 0 auto;
+        }
+        input , button {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-size: 4rem;" >login page</h1>
+    <form action="/api/login" method="post">
+        <input type="text" placeholder="enter your email" name="email" value="butola@gmail.com">
+        <input type="password" placeholder="enter your password" name="password" value="123456">
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
